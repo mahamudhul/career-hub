@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Job from './Job';
+import List from './List';
 
 const Homes = () => {
 
     const jobsData = useLoaderData()
     // console.log(jobsData);
+
+
+    const [jobList, setJoblist] = useState([]);
+    // console.log(jobList)
+
+    useEffect(() => {
+        fetch('jobList.json')
+            .then(res => res.json())
+            .then(data => setJoblist(data))
+    }, [])
+
 
 
     return (
@@ -31,8 +43,28 @@ const Homes = () => {
 
 
 
+
+            {/* Job Category Container */}
             <div>
                 <div className='flex flex-col items-center'>
+                    <p className='text-3xl font-bold my-12'>Job Category List</p>
+                    <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                </div>
+                <div className='my-12'>
+                    <div className='flex justify-around'>
+                        {
+                            jobList.map(jl => <List
+                            jl={jl}
+                            ></List>)
+                        }
+                    </div>
+                </div>
+            </div>
+
+
+            {/* Featured Job container  */}
+            <div>
+                <div className='flex flex-col items-center mt-5'>
                     <h1 className='font-bold text-3xl my-5'>Featured Jobs</h1>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
@@ -40,7 +72,7 @@ const Homes = () => {
                     <div className='grid gap-6 mb-8 lg:grid-cols-2 sm:grid-cols-1'>
                         {
                             jobsData.map(job => <Job
-                            key={job.id}
+                                key={job.id}
                                 job={job}
                             ></Job>)
                         }

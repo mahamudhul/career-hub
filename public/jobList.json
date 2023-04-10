@@ -1,26 +1,26 @@
 [
     {
-        "logo": "https://example.com/job1-logo.png",
+        "logo": "https://cdn-icons-png.flaticon.com/512/3917/3917058.png",
         "title": "Software Engineer",
-        "location": "San Francisco",
+        "available": "300 Jobs Available",
         "salary": "120000 USD"
     },
     {
-        "logo": "https://example.com/job2-logo.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png",
         "title": "Data Analyst",
-        "location": "New York",
+        "available": "224 Jobs Available",
         "salary": "80000 USD"
     },
     {
-        "logo": "https://example.com/job3-logo.png",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRhwYXhthtvmhQq0DYW1RVx3el_Q1bVF4E4Q&usqp=CAU",
         "title": "Product Manager",
-        "location": "Seattle",
+        "available": "150 Jobs Available ",
         "salary": "150000 USD"
     },
     {
-        "logo": "https://example.com/job4-logo.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Icon-round-Question_mark.svg/1200px-Icon-round-Question_mark.svg.png",
         "title": "Web Developer",
-        "location": "Chicago",
+        "available": "100+ Jobs Available",
         "salary": "100000 USD"
     }
 ]
