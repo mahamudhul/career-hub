@@ -1,0 +1,110 @@
+[
+    {
+        "id": "001",
+        "company_logo": "https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw",
+        "job_title": "Google",
+        "company_name": "ABC Company",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$100,000 - $150,000",
+        "job_description": "We are seeking a talented software engineer to join our team...",
+        "job_responsibility": "1. Develop and maintain high-quality software...",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "3+ years of experience in software development",
+        "contact_information": {
+            "phone": "555-555-1234",
+            "email": "jobs@abccompany.com"
+        }
+    },
+    {
+        "id": "002",
+        "company_logo": "https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658__340.png",
+        "job_title": "Microsoft",
+        "company_name": "XYZ Corporation",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$80,000 - $120,000",
+        "job_description": "We are seeking an experienced marketing manager to lead our team...",
+        "job_responsibility": "1. Develop and implement marketing strategies...",
+        "educational_requirements": "Bachelor's degree in Marketing or related field",
+        "experiences": "5+ years of experience in marketing",
+        "contact_information": {
+            "phone": "555-555-5678",
+            "email": "jobs@xyzcorp.com"
+        }
+    },
+    {
+        "id": "003",
+        "company_logo": "https://press.aboutamazon.in/static-files/3ca754e0-9176-4d89-8174-056267008479",
+        "job_title": "Amazon",
+        "company_name": "123 Enterprises",
+        "remote_or_onsite": "Remote",
+        "location": "Chicago, IL",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$50,000 - $70,000",
+        "job_description": "We are seeking a highly motivated sales representative to join our team...",
+        "job_responsibility": "1. Develop and maintain relationships with clients...",
+        "educational_requirements": "Bachelor's degree in Business or related field",
+        "experiences": "2+ years of experience in sales",
+        "contact_information": {
+            "phone": "555-555-9012",
+            "email": "jobs@123enterprises.com"
+        }
+    },
+    {
+        "id": "004",
+        "company_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1024px-Netflix_2015_logo.svg.png",
+        "job_title": "Netflix",
+        "company_name": "Design Co.",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$25 - $50 per hour",
+        "job_description": "We are seeking a creative graphic designer to join our team...",
+        "job_responsibility": "1. Create and design various materials for print and digital...",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+        "experiences": "2+ years of experience in graphic design",
+        "contact_information": {
+            "phone": "555-555-3456",
+            "email": "jobs@designco.com"
+        }
+    },
+    {
+        "id": "006",
+        "company_logo": "https://thinkmarketingmagazine.com/wp-content/uploads/2012/08/bmw-logo.png",
+        "job_title": "BMW",
+        "company_name": "Data Analytics Corp.",
+        "remote_or_onsite": "Remote",
+        "location": "Boston, MA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are seeking a skilled data scientist to join our team...",
+        "job_responsibility": "1. Develop and implement data analytics strategies...",
+        "educational_requirements": "Master's degree in Computer Science or related field",
+        "experiences": "5+ years of experience in data analytics or related field",
+        "contact_information": {
+            "phone": "555-555-7890",
+            "email": "jobs@dataanalyticscorp.com"
+        }
+    },
+    {
+        "id": "007",
+        "company_logo": "https://listcarbrands.com/wp-content/uploads/2015/10/Audi-Logo.png",
+        "job_title": "AUdi",
+        "company_name": "HR Solutions LLC",
+        "remote_or_onsite": "Onsite",
+        "location": "Atlanta, GA",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "$90,000 - $120,000",
+        "job_description": "We are seeking an experienced HR manager to lead our team...",
+        "job_responsibility": "1. Develop and implement HR policies and procedures...",
+        "educational_requirements": "Bachelor's degree in Human Resources or related field",
+        "experiences": "7+ years of experience in HR management",
+        "contact_information": {
+            "phone": "555-555-2345",
+            "email": "jobs@hrsolutionsllc.com"
+        }
+    }
+]

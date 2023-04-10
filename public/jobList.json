@@ -1,0 +1,26 @@
+[
+    {
+        "logo": "https://example.com/job1-logo.png",
+        "title": "Software Engineer",
+        "location": "San Francisco",
+        "salary": "120000 USD"
+    },
+    {
+        "logo": "https://example.com/job2-logo.png",
+        "title": "Data Analyst",
+        "location": "New York",
+        "salary": "80000 USD"
+    },
+    {
+        "logo": "https://example.com/job3-logo.png",
+        "title": "Product Manager",
+        "location": "Seattle",
+        "salary": "150000 USD"
+    },
+    {
+        "logo": "https://example.com/job4-logo.png",
+        "title": "Web Developer",
+        "location": "Chicago",
+        "salary": "100000 USD"
+    }
+]
