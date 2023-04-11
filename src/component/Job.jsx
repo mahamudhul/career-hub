@@ -9,7 +9,7 @@ const Job = ({job}) => {
                 <div>
                     <img src={img} alt="" className=' w-36 h-10 md:h-64 xl:h-80'/>
                 </div>
-                <h2>{job.job_title}</h2>
+                <h2 >{job.job_title}</h2>
                 <p>{company_name}</p>
                 <div>
                     <button className='border-solid border-2 text-sky-400 rounded  px-3 py-2 my-2 '>{remote_or_onsite}</button>
