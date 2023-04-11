@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import {
-    BoltIcon,
     Bars3BottomRightIcon,
     XMarkIcon,
 } from '@heroicons/react/24/solid'
@@ -17,7 +16,7 @@ const Header = () => {
                 <div>
                     <h1 className='font-bold text-xl'>PREMIER BANK</h1>
                 </div>
-                <div className='lg:flex gap-3 hidden'>
+                <div className='lg:flex gap-5 hidden'>
                     <NavLink to='/' className={({ isActive }) => (isActive ? 'active' : 'default')} >Home</NavLink>
                     <NavLink to='/statistics' className={({ isActive }) => (isActive ? 'active' : 'default')}>Statistics</NavLink>
                     <NavLink to='/jobs' className={({ isActive }) => (isActive ? 'active' : 'default')}>Applied Jobs</NavLink>
@@ -88,6 +87,10 @@ const Header = () => {
                                             Blog
                                         </Link>
                                     </li>
+                                    <li>
+                                        <button className='btn'>Star Applying</button>
+                                    </li>
+
                                 </ul>
                             </nav>
                         </div>
