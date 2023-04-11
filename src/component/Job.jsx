@@ -7,7 +7,7 @@ const Job = ({job}) => {
         <div>
             <div className='border-solid border-2 rounded p-10 overflow-hidden'>
                 <div>
-                    <img src={img} alt="" className=' w-36 h-10 md:h-64 xl:h-80' />
+                    <img src={img} alt="" className=' w-36 h-10 md:h-64 xl:h-80'/>
                 </div>
                 <h2>{job.job_title}</h2>
                 <p>{company_name}</p>
